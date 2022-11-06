@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+    .homeContainer{
+      flex-direction: column;
+    }
+    .homeItens {
+      width: 100%;
+      text-align: center;
+    }
+     /*Contact*/
+     .contactContainer{
+        flex-direction: column;
+    }
+    .contactItens{
+        width: 100%;
+    }
+
+    .aboutContainer {
+        flex-direction: column;
+      }
+      .aboutItens {
+        width: 100%;
+      }
+      .card {
+        margin-bottom: 16px;
+      }
+
+      .productContainer {
+        flex-direction: column;
+      }
+      .productItens {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+  
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    /*Home*/
+    .header {
+        flex-direction: column;
+        }
+    .header-right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Portfolio*/
+    .portfolioContainer{
+        flex-direction: column;
+      }
+
+
+    
+     
+}

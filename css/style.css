@@ -1,0 +1,221 @@
+hr{
+    border-top: 3px solid red;
+    width: 200px;
+}
+
+/* Nav*/
+.header {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header a {
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid white;
+  }
+  
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: red;
+    color: white;
+  }
+
+
+
+  /* Home */
+  #home {
+    padding: 64px;
+  }
+  
+  .homeContainer {
+      display: flex;
+      flex-direction: row;
+  }
+  .homeItens {
+    width: 50%;
+    padding: 20px;
+  }
+  .homeImg {
+      background-image: url('../img/Book-pen-black.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .large-font {
+    font-size: 48px;
+    color: red;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: red;
+  }
+
+
+  /*Portfolio*/
+  #portfolio {
+    padding: 64px;
+    position: relative;
+  }
+  .portfolioContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+  }
+  .portfolioItens {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolioItens img {
+    padding: 8px;
+  }
+  .container{
+    position: relative;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.container:hover .img{
+    opacity: 0.6;
+}
+.container:hover .middle{
+    opacity: 1;
+}
+
+
+  /* Contact */
+  .contactContainer {
+    border-radius: 5px;    
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+  } 
+  .contactItens {    
+    width: 50%;
+    margin-top: 8px;
+    padding: 20px;
+  }
+  form {
+    background-color: #f2f2f2;
+    padding: 16px;
+    border-radius: 8px;
+  }
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+  /*about*/
+  #about{
+    padding: 64px;
+    
+}
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 16px;
+   
+}
+.aboutItens {
+    width: 30%;
+    padding: 0 8px;
+    margin: 0 auto;
+}
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .social {
+    color: red;
+  }
+
+
+  #product {
+    padding: 64px;
+  }
+  .productContainer {
+    display: flex;
+    flex-direction: row;
+   
+  }
+  .productItens {
+    width: 50%;
+  }
+  .productItens img{
+    width: 300px; 
+   
+  }
+
+  
+
+
+
+  
+
+
+  /* Footer */
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 50px 10px;
+    text-align: center;
+  }
+  
+  
