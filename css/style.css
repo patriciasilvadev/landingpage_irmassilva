@@ -57,7 +57,7 @@ hr{
     padding: 20px;
   }
   .homeImg {
-      background-image: url('../img/Book-pen-black.jpg');
+      background-image: url('');
       background-size: cover;
       background-position: center;
   }

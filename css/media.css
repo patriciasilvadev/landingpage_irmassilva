@@ -43,6 +43,7 @@
         flex-direction: column;
         }
     .header-right {
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
     }
